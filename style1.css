@@ -1,0 +1,72 @@
+ body {
+      background: linear-gradient(to right, #ffccf9, #ffeb99, #caffbf, #9bf6ff, #a0c4ff);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff1493;
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      font-size: 1.5em;
+      margin-bottom: 30px;
+    }
+
+    .gambar-ruby {
+  width: 540px; /* 3x lebih besar */
+  border-radius: 22%;
+  border: 5px dotted #ff69b4;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+    }
+
+    .gambar-ruby:hover {
+      transform: scale(1.05) rotate(-3deg);
+    }
+
+    .ajar {
+      background-color: #ffe4b5;
+      border: 3px dashed #ff8c00;
+      border-radius: 15px;
+      padding: 20px;
+      width: 80%;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      font-size: 1.2em;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .ajar:hover {
+      background-color: #ffd700;
+      transform: scale(1.03);
+    }
+
+    a.fact {
+      display: block;
+      background-color: #fff0f5;
+      border-left: 8px solid #ff69b4;
+      border-radius: 10px;
+      margin: 10px auto;
+      padding: 15px;
+      width: 90%;
+      max-width: 700px;
+      text-align: left;
+      font-size: 1.1em;
+      text-decoration: none;
+      color: #333;
+      transition: 0.3s;
+    }
+
+    a.fact:hover {
+      background-color: #fffaf0;
+      transform: scale(1.01);
+    }

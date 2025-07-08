@@ -1,0 +1,55 @@
+ a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #ffe0f0, #caffbf);
+      text-align: center;
+      padding: 40px;
+    }
+
+    .card {
+      background-color: #fff0f8;
+      border: 4px dashed #ff69b4;
+      border-radius: 25px;
+      padding: 30px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .title {
+      font-size: 2em;
+      color: #d63384;
+      margin-bottom: 20px;
+    }
+
+    .emoji {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+
+    .text {
+      font-size: 1.2em;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .profesi {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      text-decoration: none;
+    }
+
+    .profesi-item {
+      background-color: #ffebfa;
+      border-radius: 15px;
+      padding: 10px 20px;
+      font-size: 1em;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    }
